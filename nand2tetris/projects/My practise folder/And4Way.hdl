@@ -1,0 +1,20 @@
+// This file is part of www.nand2tetris.org
+// and the book "The Elements of Computing Systems"
+// by Nisan and Schocken, MIT Press.
+// File name: projects/01/And.hdl
+
+/**
+ * 4-way And: Ands 4 bits. 
+ */
+
+CHIP And4Way {
+    IN a[4];
+    OUT out;
+
+    PARTS:
+    // Put your code here:
+    And(a=a[0], b=a[1], out=sum1);
+    And(a=sum1, b=a[2], out=sum2);
+    And(a=sum2, b=a[3], out=out);
+    
+}

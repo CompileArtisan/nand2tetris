@@ -1,0 +1,10 @@
+CHIP Multfive {
+  IN in[16];
+  OUT out[16];
+
+  PARTS:
+  // Declare and connect parts here
+  And16(a=in, b=true, out[0..12]=out[3..15]);
+  And(a=in[0], b=true, out=out[0], out=out[2]);
+  
+}
