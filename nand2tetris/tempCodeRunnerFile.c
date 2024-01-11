@@ -1,10 +1,6 @@
-#include<stdio.h>
+#include<Windows.h>
 int main(){
-    for(int i=0 ; i<10 ; i++){
-        for(int j=0 ; j<10 ; j++){
-            printf("%-6d",i+j);
-        }
-        printf("\n");
-    }
+    MessageBox(NULL,"Keyboard not working. Press F5 to continue","Error",MB_OKCANCEL|MB_ICONERROR);
+
     return 0;
 }
