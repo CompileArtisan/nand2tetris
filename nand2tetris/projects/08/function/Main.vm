@@ -1,0 +1,4 @@
+push constant 69
+push constant 3
+call Math.multiply 2
+pop static 0

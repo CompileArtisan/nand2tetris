@@ -1,0 +1,41 @@
+push constant 0
+pop local 4
+push constant 1
+pop local 5
+push constant 2
+pop local 6
+push constant 10
+pop temp 5
+push constant 11
+pop temp 4
+push constant 5
+pop temp 1
+push constant 2
+pop argument 4
+// (20+10) + (a+b-c) + (d-20) - (a-b-c) + x+ y + z
+push constant 20
+push constant 10
+add
+push local 4
+push local 5
+push local 6
+sub
+add
+add
+push argument 4
+push constant 20
+sub
+add
+push local 4
+push local 5
+push local 6
+add
+sub
+sub
+push temp 5
+push temp 4
+push temp 1
+add
+add
+add
+add
