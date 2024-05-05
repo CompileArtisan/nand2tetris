@@ -1,9 +1,10 @@
 // This file is part of www.nand2tetris.org
 // and the book "The Elements of Computing Systems"
 // by Nisan and Schocken, MIT Press.
-// File name: projects/07/StackArithmetic/SimpleAdd/SimpleAdd.vm
+// File name: projects/07/StackArithmetic/StackTest/StackTest.vm
 
-// Pushes and adds two constants.
+// Executes a sequence of arithmetic and logical operations
+// on the stack. 
 push constant 2
 pop local 0
 push constant 3
