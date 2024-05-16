@@ -30,10 +30,10 @@ class PlayHelper {
 		do Output.printString("  RIGHT");
 
 		do Output.moveCursor(21, 0);
-		do Output.printString("hbusul");
+		do Output.printString("Team Madmatics");
 
 		do Output.moveCursor(22, 0);
-		do Output.printString("@GITHUB");
+		do Output.printString(" ");
 
 		do Output.moveCursor(20, 25);
 		do Output.printString("Press a random key to start");
